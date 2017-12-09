@@ -1,4 +1,4 @@
-=== WP Change From Email ===
+=== Change From Email ===
 Contributors: mariankadanka
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=marian.kadanka@gmail.com&item_name=Donation+for+Marian+Kadanka
 Tags: change, email, from, name
@@ -17,7 +17,7 @@ Override the default From: 'WordPress <wordpress@mydomain.com>' name and email a
 == Installation ==
 
 1. Go to Plugins > Add New > Search
-2. Type WP Change From Email in the search box and hit Enter
+2. Type Change From Email in the search box and hit Enter
 3. Click on the button Install and then activate the plugin
 
 = Manual Installation =
@@ -26,7 +26,7 @@ The manual installation method involves downloading our plugin and uploading it 
 
 == Screenshots ==
 
-1. WP Change From Email settings page
+1. Change From Email settings page
 
 == Changelog ==
 

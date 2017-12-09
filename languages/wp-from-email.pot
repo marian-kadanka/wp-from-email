@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Change From Email\n"
-"POT-Creation-Date: 2017-12-04 20:08+0100\n"
+"POT-Creation-Date: 2017-12-09 15:43+0100\n"
 "PO-Revision-Date: 2017-12-04 20:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,27 +16,31 @@ msgstr ""
 "_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: wp-from-email.php:40
+#: wp-from-email.php:60
 msgid "Donate"
 msgstr ""
 
-#: wp-from-email.php:42
+#: wp-from-email.php:62
 msgid "Settings"
 msgstr ""
 
-#: wp-from-email.php:58
-msgid "WP From Email Settings"
+#: wp-from-email.php:69 wp-from-email.php:78
+msgid "Change From Email Settings"
 msgstr ""
 
-#: wp-from-email.php:65
+#: wp-from-email.php:69
+msgid "Change From Email"
+msgstr ""
+
+#: wp-from-email.php:85
 msgid "From Email"
 msgstr ""
 
-#: wp-from-email.php:73
+#: wp-from-email.php:93
 msgid "From Name"
 msgstr ""
 
-#: wp-from-email.php:95
+#: wp-from-email.php:115
 msgid ""
 "Override the default From: WordPress &lt;wordpress@mydomain.com&gt; name and "
 "email address"

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Change From Email
+Plugin Name: Change From Email
 Description: Override the default From: 'WordPress &lt;wordpress@mydomain.com&gt;' name and email address
 Version: 1.2
 Author: Marian Kadanka
@@ -13,7 +13,7 @@ GitHub Plugin URI: https://github.com/marian-kadanka/wp-from-email
 */
 
 /**
- * WP Change From Email
+ * Change From Email
  * Copyright (C) 2008-2017 Skullbit.com. All rights reserved.
  * Copyright (C) 2017 Marian Kadanka. All rights reserved.
  *
@@ -66,7 +66,7 @@ class WPFromEmail {
 	}
 
 	function add_admin_menu() {
-		add_options_page( 'WP From Email Settings', 'WP From Email', 'manage_options', 'wp_from_email', array( $this, 'options_page' ) );
+		add_options_page( esc_html__( 'Change From Email Settings', 'wp-from-email' ), esc_html__( 'Change From Email', 'wp-from-email' ), 'manage_options', 'wp_from_email', array( $this, 'options_page' ) );
 	}
 
 	function settings_init() {
@@ -75,7 +75,7 @@ class WPFromEmail {
 
 		add_settings_section(
 		'wp_from_email_settings_section', 
-		__( 'WP From Email Settings', 'wp-from-email' ), 
+		__( 'Change From Email Settings', 'wp-from-email' ), 
 		array( $this, 'settings_section_callback' ), 
 		'wp_from_email_settings'
 		);
@@ -112,7 +112,7 @@ class WPFromEmail {
 	}
 
 	function settings_section_callback() {
-		echo __( 'Override the default From: WordPress &lt;wordpress@mydomain.com&gt; name and email address', 'wp-from-email' );
+		_e( 'Override the default From: WordPress &lt;wordpress@mydomain.com&gt; name and email address', 'wp-from-email' );
 	}
 
 	function options_page() {
