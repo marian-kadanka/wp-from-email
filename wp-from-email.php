@@ -2,9 +2,9 @@
 /*
 Plugin Name: Change From Email
 Description: Override the default From: 'WordPress &lt;wordpress@mydomain.com&gt;' name and email address
-Version: 1.2
+Version: 1.2.1
 Author: Marian Kadanka
-Author URI: https://github.com/marian-kadanka
+Author URI: https://kadanka.net/
 Text Domain: wp-from-email
 Domain Path: /languages
 License: GPL-2.0+
@@ -15,7 +15,7 @@ GitHub Plugin URI: https://github.com/marian-kadanka/wp-from-email
 /**
  * Change From Email
  * Copyright (C) 2008-2017 Skullbit.com. All rights reserved.
- * Copyright (C) 2017 Marian Kadanka. All rights reserved.
+ * Copyright (C) 2017-2020 Marian Kadanka. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
